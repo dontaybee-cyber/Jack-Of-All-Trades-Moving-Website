@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-black text-white antialiased;
+}
+
+/* Custom Industrial Range Slider Styling */
+input[type='range']::-webkit-slider-runnable-track {
+  background: #18181b;
+  height: 8px;
+}
